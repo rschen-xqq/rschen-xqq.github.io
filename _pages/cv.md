@@ -11,14 +11,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Sc. in Technical University of Munich, Germany
+* B.Eng. in Southeast University, China
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* Working Student in the Field of Automotive Sep. 2024 - May. 2025
+  * Accenture
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 

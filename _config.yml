@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Runsheng's Personal Web"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Runsheng Chen"
-description              : &description "Master Student in Robotics, Cognition, Intelligence in Technical University of Munich"
-url                      : https://rschen-xqq.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+description              : &description "Master Student in Robotics,Cognition,Intelligence in TU Munich"
+url                      : https://rschen-xqq.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rschen-xqq/rschen-xqq.github.io"
 
@@ -22,13 +22,13 @@ repository               : "rschen-xqq/rschen-xqq.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "poetry.png"
+  avatar           : "photo.png"
   name             : "Runsheng Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Master Student in Technical University of Munich"
+  bio              : "Master Student @ TU Munich"
   location         : "Munich, Bavaria, Germany"
-  employer         : "Technical University of Munich"
-  uri              : # URL
+  employer         : "TU Munich"
+  uri              : "rschen-xqq.github.io"
   email            : "runsheng.chen@outlook.com" 
 
   # Academic websites
@@ -77,8 +77,8 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  preprints:
+    title: 'Preprints'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
