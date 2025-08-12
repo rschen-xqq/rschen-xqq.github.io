@@ -9,7 +9,7 @@ redirect_from:
 
 <div style="margin-bottom: 20px;">
   I'm a 1st-year PhD student at the <a href="https://www.cs.cit.tum.de/lt/tum-legal-tech-working-group/">Legal Tech group</a> of <a href="https://www.cit.tum.de/cit/startseite/">Technical University of Munich (TUM)</a>, under the supervision of <a href="https://www.cs.cit.tum.de/lt/team/matthias-grabmair/">Prof. Matthias Grabmair.</a> My research interests include
-  (Legal) Information Retrieval for Large Language Models, Multi-agent System, and Reasoning Models Training.
+  <em>(Legal) Information Retrieval for Large Language Models, Multi-agent System, and Large Reasoning Models.</em>
 </div>
 
 <div style="margin-bottom: 20px;">
@@ -19,9 +19,9 @@ redirect_from:
 ## <i class="fas fa-flask" style="color: #0366d6;"></i> Research Interests
 
 <ul style="margin-bottom: 20px;">
-  <li><strong>(Legal) Information Retrieval for Large Language Models – Efficient retrieval and ranking tailored to legal domains.</strong></li>
-  <li><strong>Multi-Agent Systems – Coordinated, distributed reasoning and task execution among intelligent agents</strong></li>
-  <li><strong>Reasoning Models Training – Developing and fine-tuning models for improved logical reasoning capabilities.</strong></li>
+  <li><strong>(Legal) Information Retrieval for Large Language Models</strong> – Efficient retrieval and ranking tailored to legal domains.</li>
+  <li><strong>Multi-Agent Systems</strong> – Coordinated, distributed reasoning and task execution among intelligent agents.</li>
+  <li><strong>Large Reasoning Models</strong> – Developing models for improved logical reasoning capabilities, especially in legal scenarios.</li>
 </ul>
 
 ## <i class="fas fa-newspaper" style="color: #0366d6;"></i> News
@@ -45,4 +45,3 @@ redirect_from:
     <li><strong>Achievements</strong>: Creation of a comprehensive <strong>relation-specific neuron set</strong> for Llama-2 model and a planned <strong>submission to a top NLP conference</strong>.</li>
   </ul>
 </div>
-
