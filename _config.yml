@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Homepage"
+title                    : "Runsheng Chen"
 title_separator          : "-"
 name                     : &name "Runsheng Chen"
-description              : &description "Master Student in Robotics,Cognition,Intelligence in TU Munich"
+description              : &description "PhD Student at the Legal Tech group of Technical University of Munich (TUM), working on Legal Information Retrieval, Multi-Agent Systems, and Large Reasoning Models"
 url                      : https://rschen-xqq.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rschen-xqq/rschen-xqq.github.io"
