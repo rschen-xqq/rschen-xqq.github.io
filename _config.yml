@@ -25,10 +25,10 @@ author:
   avatar           : "photo.png"
   name             : "Runsheng Chen"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student @ Technical University of Munich"
+  bio              : "Ph.D. Student in Computer Science @ TUM"
   location         : "Munich, Bavaria, Germany"
-  employer         : "TU Munich"
-  uri              : "rschen-xqq.github.io"
+  employer         : "Legal Tech Group, TUM"
+  uri              :
   email            : "runsheng.chen@outlook.com" 
 
   # Academic websites

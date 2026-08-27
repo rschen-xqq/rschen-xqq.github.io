@@ -7,22 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm a 1st-year PhD student at the [Legal Tech group](https://www.cs.cit.tum.de/lt/tum-legal-tech-working-group/) of [Technical University of Munich (TUM)](https://www.cit.tum.de/cit/startseite/), under the supervision of [Prof. Matthias Grabmair](https://www.cs.cit.tum.de/lt/team/matthias-grabmair/). My research interests include *(Legal) Information Retrieval for Large Language Models, Multi-Agent Systems, and Large Reasoning Models*.
+I'm a second-year Ph.D. student in Computer Science at the [Legal Tech Group](https://www.cs.cit.tum.de/lt/tum-legal-tech-working-group/) of the [Technical University of Munich (TUM)](https://www.cit.tum.de/cit/startseite/), advised by [Prof. Matthias Grabmair](https://www.cs.cit.tum.de/lt/team/matthias-grabmair/). My research focuses on **post-training and alignment for legal large language models**, with particular interests in reinforcement learning, on-policy distillation, agentic search and tool use, model evaluation, and reward modeling.
 
-Before that, I obtained my master's degree in Robotics, Cognition, Intelligence at [Technical University of Munich (TUM)](https://www.cit.tum.de/cit/startseite/) and my bachelor's degree in Mechanical Engineering at [Southeast University](https://www.seu.edu.cn/english/), Nanjing, China.
-
-## <i class="fas fa-flask"></i> Research Interests
-
-<ul class="chip-list">
-  <li class="chip">Legal NLP</li>
-  <li class="chip">Information Retrieval</li>
-  <li class="chip">Multi-Agent Systems</li>
-  <li class="chip">Large Reasoning Models</li>
-</ul>
-
-- **(Legal) Information Retrieval for Large Language Models** – Efficient retrieval and ranking tailored to legal domains.
-- **Multi-Agent Systems** – Coordinated, distributed reasoning and task execution among intelligent agents.
-- **Large Reasoning Models** – Developing models for improved logical reasoning capabilities, especially in legal scenarios.
+I received my M.Sc. in Robotics, Cognition, Intelligence from TUM in 2025. My master's thesis, completed in collaboration with Google DeepMind, studied relation-specific neurons in multilingual LLMs and led to a paper at **EMNLP 2025 Main**. I hold a B.Eng. in Mechanical Engineering from [Southeast University](https://www.seu.edu.cn/english/), Nanjing, China.
 
 ## <i class="fas fa-newspaper"></i> News
 
@@ -45,19 +32,55 @@ Before that, I obtained my master's degree in Robotics, Cognition, Intelligence 
   </div>
 </div>
 
-## <i class="fas fa-project-diagram"></i> Previous Projects
+## <i class="fas fa-project-diagram"></i> Research Experience
 
 <div class="project-card" markdown="1">
 
-### Detecting Multi-Lingual Relation-Specific Neurons in LLMs
+### [Generatives Sprachmodell Justiz (GSJ)](https://www.bmjv.de/DE/themen/digitales/digitalisierung_justiz/digitalisierungsinitiative/laendervorhaben/_doc/artikel_vorhaben_06_gsj.html)
 
-<p class="project-meta"><i class="fas fa-university"></i>Ludwig-Maximilians-Universität München &nbsp;·&nbsp; <i class="fas fa-calendar-alt"></i>07.2024 – 02.2025 &nbsp;·&nbsp; <em>Master Thesis</em></p>
+<p class="project-meta"><i class="fas fa-university"></i>Legal Tech Group, TUM &nbsp;·&nbsp; <i class="fas fa-calendar-alt"></i>06.2025 - Present</p>
 
-*Large Language Models · Mechanistic Interpretability · Multilingual NLP*
+*LLM Post-Training · Alignment · Legal NLP Systems*
 
-- **Identification and characterization** of neurons that store explicit knowledge about semantic relations, with a particular focus on multilingual contexts.
-- **Development of a methodological pipeline** for localizing relation-specific neurons using a tailored dataset and validation by controlled generation experiments.
-- **Detailed analysis of the neuronal activation patterns** in the Llama-2 (7B & 13B) model to examine their distribution and inherent properties.
-- **Achievements**: Creation of a comprehensive **relation-specific neuron set** for Llama-2; the resulting paper was accepted to **EMNLP 2025 (Main Conference)** ([arXiv](https://arxiv.org/abs/2502.17355)).
+- Develop scalable post-training recipes and distributed pipelines using reinforcement learning and on-policy distillation for legal reasoning and summarization.
+- Engineer runtime infrastructure for tool-using legal agents, including context management, sandboxed execution, state machines, and multi-turn workflow integration.
+
+</div>
+
+<div class="project-card" markdown="1">
+
+### On-Policy Self-Distillation for Legal Reasoning
+
+<p class="project-meta"><i class="fas fa-university"></i>Legal Tech Group, TUM &nbsp;·&nbsp; <i class="fas fa-calendar-alt"></i>05.2026 - 07.2026</p>
+
+*LLM Post-Training · Knowledge Distillation · Legal Reasoning*
+
+- Designed on-policy self-distillation workflows for compact LLMs on the LEXAM reasoning benchmark.
+- Studied how privileged information, including gold rationales, statutory hints, and teacher critiques, can improve training stability and out-of-distribution generalization.
+
+</div>
+
+<div class="project-card" markdown="1">
+
+### Answer-Aware Hint Refinement for RL-Trained Search Agents
+
+<p class="project-meta"><i class="fas fa-university"></i>Legal Tech Group, TUM &nbsp;·&nbsp; <i class="fas fa-calendar-alt"></i>03.2026 - 05.2026</p>
+
+*Agentic RAG · Reinforcement Learning · Tool Use*
+
+- Developed answer-aware, loss-masked hint refinement for multi-hop search agents to address credit assignment and reward sparsity.
+- Built distributed RL training infrastructure across an 8xH200 GPU cluster using VeRL, vLLM, GPU-accelerated FAISS, and an asynchronous LLM-judge reward server.
+
+</div>
+
+## <i class="fab fa-github"></i> Open Source
+
+<div class="project-card" markdown="1">
+
+### [Zotero Smart Highlighter](https://github.com/MemorushB/zotero-smart-highlighter)
+
+*Intelligent Document Assistant · TypeScript · Python*
+
+An open-source Zotero 8 plugin that extracts and highlights informative passages in research papers through configurable backends: local BM25 ranking, an on-device neural reranker, or LLM APIs.
 
 </div>

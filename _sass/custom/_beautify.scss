@@ -1,61 +1,61 @@
 /* ==========================================================================
-   现代明暗自适应主题
-   设计原则：白底/深底 + 单一蓝色强调色，细边框代替重阴影，跟随系统明暗切换
+   MORANDI LIGHT AND DARK THEME
+   Muted sage, warm stone, and soft charcoal create a calm academic palette.
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
-   色彩令牌：浅色模式（默认）
+   Color tokens: light mode
    -------------------------------------------------------------------------- */
 :root {
-  /* 覆盖模板全局变量 */
-  --global-bg-color                  : #ffffff;
-  --global-text-color                : #1e293b;
-  --global-text-color-light          : #64748b;
-  --global-border-color              : #e2e8f0;
-  --global-link-color                : #2563eb;
-  --global-link-color-hover          : #1d4ed8;
-  --global-link-color-visited        : #2563eb;
-  --global-masthead-link-color       : #334155;
-  --global-masthead-link-color-hover : #2563eb;
-  --global-code-background-color     : #f1f5f9;
-  --global-code-text-color           : #334155;
-  --global-thead-color               : #f1f5f9;
-  --global-fig-caption-color         : #64748b;
+  /* Template-level tokens */
+  --global-bg-color                  : #f4f1ec;
+  --global-text-color                : #4d5551;
+  --global-text-color-light          : #7b827e;
+  --global-border-color              : #d8d2c9;
+  --global-link-color                : #5f7773;
+  --global-link-color-hover          : #455f5b;
+  --global-link-color-visited        : #766f7b;
+  --global-masthead-link-color       : #59615d;
+  --global-masthead-link-color-hover : #5f7773;
+  --global-code-background-color     : #e9e5de;
+  --global-code-text-color           : #555d59;
+  --global-thead-color               : #e6e1d9;
+  --global-fig-caption-color         : #7b827e;
 
-  /* 自定义扩展令牌 */
-  --accent-color        : #2563eb;
-  --accent-color-hover  : #1d4ed8;
-  --accent-soft         : rgba(37, 99, 235, 0.08);   /* 强调色淡背景 */
-  --surface-color       : #f8fafc;                    /* 卡片、区块表面 */
-  --surface-hover       : #f1f5f9;
-  --shadow-color        : rgba(15, 23, 42, 0.06);
+  /* Extended component tokens */
+  --accent-color        : #647b77;
+  --accent-color-hover  : #4f6763;
+  --accent-soft         : rgba(100, 123, 119, 0.14);
+  --surface-color       : #ece8e1;
+  --surface-hover       : #e3ded5;
+  --shadow-color        : rgba(75, 82, 78, 0.10);
 }
 
 /* --------------------------------------------------------------------------
-   色彩令牌：深色模式（跟随系统）
+   Color tokens: dark mode
    -------------------------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
   :root {
-    --global-bg-color                  : #0f172a;
-    --global-text-color                : #e2e8f0;
-    --global-text-color-light          : #94a3b8;
-    --global-border-color              : #2c3a52;
-    --global-link-color                : #60a5fa;
-    --global-link-color-hover          : #93c5fd;
-    --global-link-color-visited        : #60a5fa;
-    --global-masthead-link-color       : #cbd5e1;
-    --global-masthead-link-color-hover : #60a5fa;
-    --global-code-background-color     : #1e293b;
-    --global-code-text-color           : #cbd5e1;
-    --global-thead-color               : #1e293b;
-    --global-fig-caption-color         : #94a3b8;
+    --global-bg-color                  : #292e2c;
+    --global-text-color                : #dad7d0;
+    --global-text-color-light          : #a8ada8;
+    --global-border-color              : #484e4a;
+    --global-link-color                : #a7b8b2;
+    --global-link-color-hover          : #c3cec9;
+    --global-link-color-visited        : #b7aeb9;
+    --global-masthead-link-color       : #cdd0cb;
+    --global-masthead-link-color-hover : #a7b8b2;
+    --global-code-background-color     : #353a38;
+    --global-code-text-color           : #d0d2cc;
+    --global-thead-color               : #393f3c;
+    --global-fig-caption-color         : #a8ada8;
 
-    --accent-color        : #60a5fa;
-    --accent-color-hover  : #93c5fd;
-    --accent-soft         : rgba(96, 165, 250, 0.12);
-    --surface-color       : #17233b;
-    --surface-hover       : #1e293b;
-    --shadow-color        : rgba(0, 0, 0, 0.35);
+    --accent-color        : #9fb1ab;
+    --accent-color-hover  : #c0cbc6;
+    --accent-soft         : rgba(159, 177, 171, 0.14);
+    --surface-color       : #323735;
+    --surface-hover       : #3b413e;
+    --shadow-color        : rgba(0, 0, 0, 0.28);
   }
 }
 
